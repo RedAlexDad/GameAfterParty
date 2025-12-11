@@ -1,0 +1,41 @@
+{
+  "description": "История очков команд. Формат элементов соответствует ScoreSnapshot из src/types.ts.",
+  "history": [
+    {
+      "time": "2025-12-11T14:49:14.132Z",
+      "team1": 100,
+      "team2": 0,
+      "currentTeam": 2,
+      "questionKey": "👾 ЛОГИКА-0",
+      "points": 100,
+      "correct": true
+    },
+    {
+      "time": "2025-12-11T14:49:20.373Z",
+      "team1": 100,
+      "team2": -50,
+      "currentTeam": 1,
+      "questionKey": "🤔 НЕОЧЕВИДНЫЕ ВОПРОСЫ-0",
+      "points": 100,
+      "correct": false
+    },
+    {
+      "time": "2025-12-11T14:49:23.108Z",
+      "team1": 600,
+      "team2": -50,
+      "currentTeam": 2,
+      "questionKey": "🎓 МГТУ им. Баумана-3",
+      "points": 500,
+      "correct": true
+    },
+    {
+      "time": "2025-12-11T14:49:32.287Z",
+      "team1": 600,
+      "team2": 950,
+      "currentTeam": 1,
+      "questionKey": "👾 ЛОГИКА-4",
+      "points": 1000,
+      "correct": true
+    }
+  ]
+}

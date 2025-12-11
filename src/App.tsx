@@ -21,6 +21,20 @@ type ModalState = {
   selectedIdx?: number;
 } | null;
 
+const HISTORY_ENDPOINT = "http://localhost:4000/history";
+
+const sendHistoryToServer = async (history: ScoreSnapshot[]) => {
+  try {
+    await fetch(HISTORY_ENDPOINT, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ history }),
+    });
+  } catch (error) {
+    console.error("Не удалось отправить историю на сервер", error);
+  }
+};
+
 const App: React.FC = () => {
   const [gameState, setGameState] = useState<GameState>(initialState);
   const [modal, setModal] = useState<ModalState>(null);
@@ -101,6 +115,7 @@ const App: React.FC = () => {
       "svoya-igra-history",
       JSON.stringify(newState.history)
     );
+    void sendHistoryToServer(newState.history);
 
     setGameState(newState);
     setModal({
