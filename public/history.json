@@ -2,7 +2,7 @@
   "description": "История очков команд. Формат элементов соответствует ScoreSnapshot из src/types.ts.",
   "history": [
     {
-      "time": "2025-12-11T14:49:14.132Z",
+      "time": "2025-12-11T14:54:35.139Z",
       "team1": 100,
       "team2": 0,
       "currentTeam": 2,
@@ -11,31 +11,175 @@
       "correct": true
     },
     {
-      "time": "2025-12-11T14:49:20.373Z",
+      "time": "2025-12-11T14:54:40.688Z",
       "team1": 100,
-      "team2": -50,
+      "team2": 300,
+      "currentTeam": 1,
+      "questionKey": "🎓 МГТУ им. Баумана-2",
+      "points": 300,
+      "correct": true
+    },
+    {
+      "time": "2025-12-11T14:54:48.711Z",
+      "team1": 600,
+      "team2": 300,
+      "currentTeam": 2,
+      "questionKey": "🤔 НЕОЧЕВИДНЫЕ ВОПРОСЫ-3",
+      "points": 500,
+      "correct": true
+    },
+    {
+      "time": "2025-12-11T14:54:58.817Z",
+      "team1": 600,
+      "team2": 1300,
+      "currentTeam": 1,
+      "questionKey": "🎓 МГТУ им. Баумана-4",
+      "points": 1000,
+      "correct": true
+    },
+    {
+      "time": "2025-12-11T14:55:01.981Z",
+      "team1": 500,
+      "team2": 1300,
+      "currentTeam": 2,
+      "questionKey": "👾 ЛОГИКА-1",
+      "points": 200,
+      "correct": false
+    },
+    {
+      "time": "2025-12-11T14:55:03.195Z",
+      "team1": 500,
+      "team2": 1150,
+      "currentTeam": 1,
+      "questionKey": "👾 ЛОГИКА-2",
+      "points": 300,
+      "correct": false
+    },
+    {
+      "time": "2025-12-11T14:55:05.249Z",
+      "team1": 250,
+      "team2": 1150,
+      "currentTeam": 2,
+      "questionKey": "👾 ЛОГИКА-3",
+      "points": 500,
+      "correct": false
+    },
+    {
+      "time": "2025-12-11T14:55:08.285Z",
+      "team1": 250,
+      "team2": 650,
+      "currentTeam": 1,
+      "questionKey": "👾 ЛОГИКА-4",
+      "points": 1000,
+      "correct": false
+    },
+    {
+      "time": "2025-12-11T14:55:11.397Z",
+      "team1": 200,
+      "team2": 650,
+      "currentTeam": 2,
+      "questionKey": "🎓 МГТУ им. Баумана-0",
+      "points": 100,
+      "correct": false
+    },
+    {
+      "time": "2025-12-11T14:55:14.935Z",
+      "team1": 200,
+      "team2": 550,
+      "currentTeam": 1,
+      "questionKey": "🎓 МГТУ им. Баумана-1",
+      "points": 200,
+      "correct": false
+    },
+    {
+      "time": "2025-12-11T14:55:17.732Z",
+      "team1": -50,
+      "team2": 550,
+      "currentTeam": 2,
+      "questionKey": "🎓 МГТУ им. Баумана-3",
+      "points": 500,
+      "correct": false
+    },
+    {
+      "time": "2025-12-11T14:55:20.231Z",
+      "team1": -50,
+      "team2": 500,
       "currentTeam": 1,
       "questionKey": "🤔 НЕОЧЕВИДНЫЕ ВОПРОСЫ-0",
       "points": 100,
       "correct": false
     },
     {
-      "time": "2025-12-11T14:49:23.108Z",
-      "team1": 600,
-      "team2": -50,
+      "time": "2025-12-11T14:55:22.851Z",
+      "team1": -150,
+      "team2": 500,
       "currentTeam": 2,
-      "questionKey": "🎓 МГТУ им. Баумана-3",
+      "questionKey": "🤔 НЕОЧЕВИДНЫЕ ВОПРОСЫ-1",
+      "points": 200,
+      "correct": false
+    },
+    {
+      "time": "2025-12-11T14:55:26.249Z",
+      "team1": -150,
+      "team2": 350,
+      "currentTeam": 1,
+      "questionKey": "🤔 НЕОЧЕВИДНЫЕ ВОПРОСЫ-2",
+      "points": 300,
+      "correct": false
+    },
+    {
+      "time": "2025-12-11T14:55:28.918Z",
+      "team1": -650,
+      "team2": 350,
+      "currentTeam": 2,
+      "questionKey": "🤔 НЕОЧЕВИДНЫЕ ВОПРОСЫ-4",
+      "points": 1000,
+      "correct": false
+    },
+    {
+      "time": "2025-12-11T14:55:32.516Z",
+      "team1": -650,
+      "team2": -150,
+      "currentTeam": 1,
+      "questionKey": "🎬 КИНО-4",
+      "points": 1000,
+      "correct": false
+    },
+    {
+      "time": "2025-12-11T14:55:34.781Z",
+      "team1": -150,
+      "team2": -150,
+      "currentTeam": 2,
+      "questionKey": "🎬 КИНО-3",
       "points": 500,
       "correct": true
     },
     {
-      "time": "2025-12-11T14:49:32.287Z",
-      "team1": 600,
-      "team2": 950,
+      "time": "2025-12-11T14:55:37.441Z",
+      "team1": -150,
+      "team2": -300,
       "currentTeam": 1,
-      "questionKey": "👾 ЛОГИКА-4",
-      "points": 1000,
+      "questionKey": "🎬 КИНО-2",
+      "points": 300,
+      "correct": false
+    },
+    {
+      "time": "2025-12-11T14:55:40.683Z",
+      "team1": 50,
+      "team2": -300,
+      "currentTeam": 2,
+      "questionKey": "🎬 КИНО-1",
+      "points": 200,
       "correct": true
+    },
+    {
+      "time": "2025-12-11T14:55:43.232Z",
+      "team1": 50,
+      "team2": -350,
+      "currentTeam": 1,
+      "questionKey": "🎬 КИНО-0",
+      "points": 100,
+      "correct": false
     }
   ]
 }

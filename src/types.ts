@@ -34,3 +34,12 @@ export interface GameState {
   gameOver: boolean;
   history: ScoreSnapshot[];
 }
+
+export type ModalState = {
+  category: CategoryKey;
+  index: number;
+  phase: "question" | "result";
+  isCorrect?: boolean;
+  points?: number;
+  selectedIdx?: number;
+} | null;
